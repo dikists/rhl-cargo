@@ -1,0 +1,85 @@
+*{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+
+}
+.container{
+  top: 20px;
+  width: 90%;
+  height: auto;
+  border: 1px solid black;
+  margin: 0 auto;
+  position: relative;
+}
+table{
+  border-collapse: collapse;
+}
+.head{
+  width: 100%;
+  font-size: 12px;
+  border-bottom: 1px solid black;
+}
+.body th{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 3px;
+  /* background-color: rgb(0, 4, 255); */
+  background-color: #0f3d7a;
+  color: white;
+}
+.left th{
+  /* border-left: 1px solid black; */
+  padding: 10px;
+  text-align: left;
+}
+.header{
+  margin-left: -200px;
+  margin-top: -20px;
+}
+.header1{
+  margin-left: -250px;
+  margin-top: -20px;
+}
+.header2{
+  margin-left: -100px;
+  margin-top: -20px;
+}
+.logo {
+  /* Mengatur posisi menjadi absolute */
+  position: absolute;
+  
+  /* Tentukan posisi gambar berdasarkan kebutuhan */
+  /* Contoh: Posisi gambar di kiri atas halaman */
+  top: -30px; /* Jarak gambar dari atas halaman */
+  left: -20px; /* Jarak gambar dari kiri halaman */
+  
+  /* Atur ukuran gambar sesuai kebutuhan */
+  width: 200px; /* Lebar gambar */
+  height: auto; /* Tinggi gambar otomatis mengikuti proporsi lebar */
+}
+.kotak-utama {
+  width: 100px; /* Lebar kotak */
+  height: auto; /* Tinggi kotak */
+  padding: 10px;
+  margin-left: 5px;
+}
+.teks-dengan-kotak {
+  position: relative; /* Posisi relatif untuk mengatur pseudo-elemen */
+  padding-right: 40px; /* Menambahkan ruang untuk kotak */
+  font-weight: bold; /* Mempertebal teks */
+  font-size: 8px;
+}
+/* Pseudo-elemen ::after */
+.teks-dengan-kotak::after {
+  content: ''; /* Konten pseudo-elemen kosong */
+  position: absolute; /* Posisi absolut untuk mengatur kotak di sebelah kanan teks */
+  right: -20px; /* Kotak berada di sebelah kanan teks */
+  top: -5px; /* Kotak berada di atas teks */
+  width: 20px; /* Lebar kotak */
+  height: 20px; /* Tinggi kotak */
+  background-color: rgb(255, 255, 255); /* Warna latar belakang kotak */
+  border: 2px solid black; /* Garis tepi kotak */
+}
