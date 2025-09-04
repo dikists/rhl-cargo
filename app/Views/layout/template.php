@@ -87,7 +87,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-truck"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">WEP <sup>Cargo</sup></div>
+                <div class="sidebar-brand-text mx-3">RHL <sup>Cargo</sup></div>
             </a>
             <hr class="sidebar-divider my-0">
             <li class="nav-item active">

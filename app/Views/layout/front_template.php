@@ -45,7 +45,7 @@
       <a href="<?= base_url('/'); ?>" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="<?= base_url('') ?>assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">WEP Cargo</h1>
+        <h1 class="sitename">RHL Cargo</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -90,7 +90,7 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="/" class="logo d-flex align-items-center">
-            <span class="sitename">WEP Cargo</span>
+            <span class="sitename">RHL Cargo</span>
           </a>
           <p>Jl. Jatinegara Barat No. 160, Desa/Kelurahan Kampung melayu, Kec. Jatinegara, Kota Adm. Jakarta Timur, Provinsi DKI Jakarta. Kode Poas: 13320</p>
           <div class="social-links d-flex mt-4">
@@ -129,7 +129,7 @@
           <p>Jl. Bukit Duri Tanjakan No. 54</p>
           <p>Jakarta Selatan</p>
           <p class="mt-4"><strong>Phone:</strong> <span>(021) 831 4968</span></p>
-          <p><strong>Email:</strong> <span>wepcargo@gmail.com</span></p>
+          <p><strong>Email:</strong> <span>rhl@rajawalihandallogistik.com</span></p>
         </div>
 
       </div>

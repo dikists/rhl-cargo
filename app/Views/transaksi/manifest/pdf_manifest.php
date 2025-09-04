@@ -106,7 +106,7 @@
           <table class="noborder" style="width: 100%; margin-bottom: 5px;" cellspacing="0" cellpadding="0">
                <tr>
                     <td style="width: 20%;" border="0">
-                         <img src="data:image/png;base64,<?= base64_encode(file_get_contents(FCPATH . 'assets/img/logo-wep.png')); ?>" style="width: 150px; height: auto;" />
+                         <img src="data:image/png;base64,<?= base64_encode(file_get_contents(FCPATH . 'assets/img/logo-rhl.png')); ?>" style="width: 150px; height: auto;" />
                     </td>
                     <td style="width: 80%; text-align: center;" border="0">
                          <h3 class="title">PT. Wahana Elangcargo Perkasa</h3>

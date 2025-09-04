@@ -113,7 +113,7 @@
                     <div class="sidebar-brand-icon rotate-n-15">
                          <i class="fas fa-truck"></i>
                     </div>
-                    <div class="sidebar-brand-text mx-3">WEP Cargo<sup>2</sup></div>
+                    <div class="sidebar-brand-text mx-3">RHL Cargo<sup>2</sup></div>
                </a>
 
                <!-- Render Menu -->

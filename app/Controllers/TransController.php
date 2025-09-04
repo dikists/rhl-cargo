@@ -101,7 +101,7 @@ class TransController extends BaseController
           $bln = getRomawiBulan();
           $no = $this->orderModel->getNoOrder();
           $tahun = date('Y');
-          $no_order = $no . "/WEP/" . $bln . "/" . $tahun;
+          $no_order = $no . "/RHL/" . $bln . "/" . $tahun;
 
           $data = [
                'tanggal_order' => $this->request->getPost('date'),

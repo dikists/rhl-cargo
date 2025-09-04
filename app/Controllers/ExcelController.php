@@ -105,7 +105,7 @@ class ExcelController extends BaseController
         $sheet = $spreadsheet->setActiveSheetIndex(0);
 
         // Memasukkan gambar
-        $imagePath = 'assets/img/logo-wep.png'; // Ganti dengan path gambar yang sesuai
+        $imagePath = 'assets/img/logo-rhl.png'; // Ganti dengan path gambar yang sesuai
         $drawing = new Drawing();
         $drawing->setName('Logo')
             ->setPath($imagePath)
@@ -312,7 +312,7 @@ class ExcelController extends BaseController
         $sheet = $spreadsheet->setActiveSheetIndex(0);
 
         // Memasukkan gambar
-        $imagePath = 'assets/img/logo-wep.png'; // Ganti dengan path gambar yang sesuai
+        $imagePath = 'assets/img/logo-rhl.png'; // Ganti dengan path gambar yang sesuai
         $drawing = new Drawing();
         $drawing->setName('Logo')
             ->setPath($imagePath)

@@ -108,11 +108,11 @@
                     <p><b>OFFICE / KANTOR:</b> Jl. Jatinegara Barat No. 187 CDE RW 001<br>
                          Kel. Kampung Melayu, Kec. Jatinegara - 13320<br>
                          Phone: 021 - 8571498<br>
-                         Email: wepcargo@gmail.com</p>
+                         Email: rhl@rajawalihandallogistik.com</p>
                     <p><b>WAREHOUSE / GUDANG:</b> Wisma Cilincing Blok A 108<br>
                          Bukit Duri Tanjakan No. 54 - 12540<br>
                          Phone: 021 - 8593694<br>
-                         Email: wepcargo@gmail.com</p>
+                         Email: rhl@rajawalihandallogistik.com</p>
                </div>
                <div class="note-info">
                     <p><b>Date/Tanggal:</b> 2024-11-21</p>
@@ -160,7 +160,7 @@
                     <p>Date/Tanggal:</p>
                </div>
                <div>
-                    <p><b>COLLECTED BY WEP CARGO:</b></p>
+                    <p><b>COLLECTED BY RHL CARGO:</b></p>
                     <p>Date/Tanggal:</p>
                </div>
                <div>

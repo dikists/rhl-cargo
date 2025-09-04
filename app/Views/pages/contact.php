@@ -46,7 +46,7 @@
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Email Us</h3>
-                <p>wepcargo@gmail.com</p>
+                <p>rhl@rajawalihandallogistik.com</p>
               </div>
             </div><!-- End Info Item -->
 

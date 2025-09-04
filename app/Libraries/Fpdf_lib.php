@@ -15,7 +15,7 @@ class Fpdf_lib extends \FPDF
 
      public function header()
      {
-          $this->Image('assets/img/logo-wep.png', 10, 5, 75);
+          $this->Image('assets/img/logo-rhl.png', 10, 5, 75);
           // Arial bold 15
           $this->SetFont('Arial', 'B', 15);
           // Move to the right

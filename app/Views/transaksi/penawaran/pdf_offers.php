@@ -88,11 +88,11 @@
 
      <div class="kop-surat">
           <!-- <img src="logo.png" alt="Logo Perusahaan"> Ganti dengan logo perusahaan -->
-          <img src="data:image/png;base64,<?= base64_encode(file_get_contents(FCPATH . 'assets/img/logo_wep.png')); ?>" style="width: 150px; height: 100px;" />
+          <img src="data:image/png;base64,<?= base64_encode(file_get_contents(FCPATH . 'assets/img/logo_rhl.png')); ?>" style="width: 150px; height: 100px;" />
           <h1>PT. Wahana Elangcargo Perkasa</h1>
           <p class="alamat">Wisma Ciliwung Blok A 108 Jl. Bukit Duri Tanjakan No 54 <br> Tebet Jakarta-Selatan</p>
-          <p>Telepon: 085175295353 | Email: wepcargo@gmail.com</p>
-          <p>Website: wepcargo@gmail.com</p>
+          <p>Telepon: 085175295353 | Email: rhl@rajawalihandallogistik.com</p>
+          <p>Website: rajawalihandallogistik.com</p>
      </div>
 
      <table width="100%" class="data">

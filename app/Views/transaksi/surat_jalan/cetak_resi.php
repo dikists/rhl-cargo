@@ -269,7 +269,7 @@
           <table border="1">
                <tr>
                     <th rowspan="3" style="text-align: left; padding-top: 10px;">
-                         <img src="data:image/png;base64,<?= base64_encode(file_get_contents(FCPATH . 'assets/img/logo_wep.png')); ?>" style="width: 150px; height: auto;" />
+                         <img src="data:image/png;base64,<?= base64_encode(file_get_contents(FCPATH . 'assets/img/logo_rhl.png')); ?>" style="width: 150px; height: auto;" />
                          <div style="position: absolute; top: 18px; left: 200px; font-weight: bold; font-size: 28px;">
                               PT. Wahana Elangcargo Perkasa
                          </div>
@@ -297,7 +297,7 @@
                               OFFICE / KANTOR <br>
                               Jl. Bukit duri tanjakan no. 54 | Wisma Ciliwung Blok A 108 <br>
                               Phone : 021 - 83794186 <br>
-                              Email : wepcargo@gmail.com
+                              Email : rhl@rajawalihandallogistik.com
                          </div>
                     </th>
                </tr>
@@ -382,7 +382,7 @@
                     SHIPPER'S REFERENCE
                </div>
                <div class="collected-label">
-                    COLLECTED BY WEP
+                    COLLECTED BY RHL
                </div>
                <div class="received-label">
                     RECEIVED BY CONSIGNEE
@@ -425,7 +425,7 @@
           <table border="1">
                <tr>
                     <th rowspan="3" style="text-align: left; padding-top: 10px;">
-                         <img src="data:image/png;base64,<?= base64_encode(file_get_contents(FCPATH . 'assets/img/logo_wep.png')); ?>" style="width: 150px; height: auto;" />
+                         <img src="data:image/png;base64,<?= base64_encode(file_get_contents(FCPATH . 'assets/img/logo_rhl.png')); ?>" style="width: 150px; height: auto;" />
                          <div style="position: absolute; top: 18px; left: 200px; font-weight: bold; font-size: 28px;">
                               PT. Wahana Elangcargo Perkasa
                          </div>
@@ -453,7 +453,7 @@
                               OFFICE / KANTOR <br>
                               Jl. Bukit duri tanjakan no. 54 | Wisma Ciliwung Blok A 108 <br>
                               Phone : 021 - 83794186 <br>
-                              Email : wepcargo@gmail.com
+                              Email : rhl@rajawalihandallogistik.com
                          </div>
                     </th>
                </tr>
@@ -538,7 +538,7 @@
                     SHIPPER'S REFERENCE
                </div>
                <div class="collected-label">
-                    COLLECTED BY WEP
+                    COLLECTED BY RHL
                </div>
                <div class="received-label">
                     RECEIVED BY CONSIGNEE
@@ -581,7 +581,7 @@
           <table border="1">
                <tr>
                     <th rowspan="3" style="text-align: left; padding-top: 10px;">
-                         <img src="data:image/png;base64,<?= base64_encode(file_get_contents(FCPATH . 'assets/img/logo_wep.png')); ?>" style="width: 150px; height: auto;" />
+                         <img src="data:image/png;base64,<?= base64_encode(file_get_contents(FCPATH . 'assets/img/logo_rhl.png')); ?>" style="width: 150px; height: auto;" />
                          <div style="position: absolute; top: 18px; left: 200px; font-weight: bold; font-size: 28px;">
                               PT. Wahana Elangcargo Perkasa
                          </div>
@@ -609,7 +609,7 @@
                               OFFICE / KANTOR <br>
                               Jl. Bukit duri tanjakan no. 54 | Wisma Ciliwung Blok A 108 <br>
                               Phone : 021 - 83794186 <br>
-                              Email : wepcargo@gmail.com
+                              Email : rhl@rajawalihandallogistik.com
                          </div>
                     </th>
                </tr>
@@ -694,7 +694,7 @@
                     SHIPPER'S REFERENCE
                </div>
                <div class="collected-label">
-                    COLLECTED BY WEP
+                    COLLECTED BY RHL
                </div>
                <div class="received-label">
                     RECEIVED BY CONSIGNEE

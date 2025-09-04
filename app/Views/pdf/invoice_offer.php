@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Invoice <?= $invoice['invoice_number']; ?></title>
-    <link rel="shortcut icon" href="assets/img/logo_wep.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/logo_rhl.png" type="image/x-icon">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -103,7 +103,7 @@
         <table>
             <tr>
                 <td>
-                    <img src="data:image/png;base64,<?= base64_encode(file_get_contents(FCPATH . 'assets/img/logo-wep.png')); ?>" style="width: 280px; height: auto;" />
+                    <img src="data:image/png;base64,<?= base64_encode(file_get_contents(FCPATH . 'assets/img/logo-rhl.png')); ?>" style="width: 280px; height: auto;" />
                 </td>
                 <td class="text-right">
                     <?php if ($title == 'invoice') { ?>
