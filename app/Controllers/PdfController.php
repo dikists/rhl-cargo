@@ -48,6 +48,12 @@ class PdfController extends BaseController
         ini_set('max_execution_time', 300);
         helper('pdf');
 
+        $db = \Config\Database::connect();
+
+        // Mengambil data perusahaan
+        $query = $db->table('tb_perusahaan')->get();
+        $company = $query->getRowArray();
+
         $date_start = $this->request->getGet('date_start');
         $date_end = $this->request->getGet('date_end');
         $pengirim = $this->request->getGet('pengirim');
@@ -66,7 +72,7 @@ class PdfController extends BaseController
 
         $title = 'Pengiriman ' . date('d-m-Y', strtotime($date_start)) . ' - ' . date('d-m-Y', strtotime($date_end));
 
-        $html = view('pdf/pengiriman_req_liugong', ['data' => $data, 'start' => $date_start, 'end' => $date_end, 'title' => $title]);
+        $html = view('pdf/pengiriman_req_liugong', ['data' => $data, 'company' => $company, 'start' => $date_start, 'end' => $date_end, 'title' => $title]);
         create_pengiriman_pdf($html, 'laporan_pengiriman.pdf');
         exit;
     }
@@ -235,7 +241,7 @@ class PdfController extends BaseController
         $data['offer_details'] = $detail;
 
         $html = view('pdf/invoice_offer', $data);
-        create_pdf($html, $title.'_'. $head['invoice_number'] . '.pdf');
+        create_pdf($html, $title . '_' . $head['invoice_number'] . '.pdf');
         exit;
     }
 }

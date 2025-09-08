@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?= $title; ?> - Wahana Elangcargo Perkasa</title>
+    <title><?= $title; ?> - <?= getenv('COMPANY_NAME'); ?></title>
 
     <!-- Favicons -->
     <link href="<?= base_url('') ?>assets/img/favicon.png" rel="icon">
@@ -259,7 +259,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Wahana Elangcargo Perkasa <?= date('Y') ?></span>
+                        <span>Copyright &copy; <?= getenv('COMPANY_NAME'); ?> <?= date('Y') ?></span>
                     </div>
                 </div>
             </footer>

@@ -51,10 +51,10 @@
     <table class="noborder" style="width: 100%; margin-bottom: 5px;" cellspacing="0" cellpadding="0">
         <tr>
             <td style="width: 20%;" border="0">
-                <img src="data:image/png;base64,<?= base64_encode(file_get_contents(FCPATH . 'assets/img/logo-rhl.png')); ?>" style="width: 250px; height: auto;" />
+                <img src="data:image/png;base64,<?= base64_encode(file_get_contents(FCPATH . getenv('COMPANY_LOGO_TEXT'))); ?>" style="width: 250px; height: auto;" />
             </td>
             <td style="width: 80%; text-align: center;" border="0">
-                <h1>Wahana Elangcargo Perkasa</h1>
+                <h1><?= getenv('COMPANY_NAME'); ?></h1>
                 <h2 style="margin: 0;"><?= $title; ?></h2>
             </td>
         </tr>

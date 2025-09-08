@@ -88,7 +88,7 @@
      <?php for ($i = 0; $i < $qty; $i++) { ?>
           <div class="container">
                <div class="logo">
-                    <img src="data:image/png;base64,<?= base64_encode(file_get_contents(FCPATH . 'assets/img/logo-rhl.png')); ?>" style="width: 200px; height: auto;" />
+                    <img src="data:image/png;base64,<?= base64_encode(file_get_contents(FCPATH . getenv('COMPANY_LOGO_TEXT'))); ?>" style="width: 200px; height: auto;" />
                </div>
 
                <div class="barcode">
@@ -134,7 +134,7 @@
                </div>
 
                <div class="footer">
-                    <p>WAHANA ELANGCARGO PERKASA</p>
+                    <p><?= getenv('COMPANY_NAME'); ?></p>
                </div>
           </div>
 

@@ -114,7 +114,7 @@
     <table class="header-table">
       <tr>
         <td class="logo-box">
-           <img src="data:image/png;base64,<?= base64_encode(file_get_contents(FCPATH . 'assets/img/logo_rhl.png')); ?>" style="width: 150px; height: auto;" />
+           <img src="data:image/png;base64,<?= base64_encode(file_get_contents(FCPATH . getenv('COMPANY_LOGO'))); ?>" style="width: 150px; height: auto;" />
         </td>
         <td class="company">
           <div class="title"><?= $company['nama']; ?></div>

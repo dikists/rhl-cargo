@@ -53,7 +53,7 @@
 
 <body>
     <h2 style="text-align: center;">
-        <div class="h3">PT. Wahana Elangcargo Perkasa</div>
+        <div class="h3"><?= $company['nama']; ?></div>
         <?= $title; ?>
     </h2>
     <table>

@@ -71,6 +71,12 @@ class Laporan extends BaseController
   public function export_pdf()
   {
     helper('pdf');
+    $db = \Config\Database::connect();
+
+    // Mengambil data perusahaan
+    $query = $db->table('tb_perusahaan')->get();
+    $company = $query->getRowArray();
+
     $start = $this->request->getGet('start');
     $end = $this->request->getGet('end');
     $shipper = session()->get('id');
@@ -84,7 +90,8 @@ class Laporan extends BaseController
 
     $data = [
       'title' => 'Laporan Pengiriman ' . $awal . ' - ' . $akhir,
-      'data' => $data
+      'data' => $data,
+      'company' => $company
     ];
 
     $html = view('laporan/pdf_pengiriman', $data);

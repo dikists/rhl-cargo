@@ -4,7 +4,7 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Login - Wahana Elangcargo Perkasa</title>
+     <title>Login - <?= getenv('COMPANY_NAME'); ?></title>
      <link rel="stylesheet" href="<?= base_url('assets/css/login_admin.css'); ?>">
      <link href="<?= base_url('') ?>assets/img/favicon.png" rel="icon">
      <link href="<?= base_url('') ?>assets/img/apple-touch-icon.png" rel="apple-touch-icon">

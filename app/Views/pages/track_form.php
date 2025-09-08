@@ -21,7 +21,7 @@
      <div class="container">
           <div class="row gy-4 d-flex justify-content-between">
                <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                    <h2 data-aos="fade-up">WAHANA ELANGCARGO PERKASA</h2>
+                    <h2 data-aos="fade-up"><?= getenv('COMPANY_NAME'); ?></h2>
                     <p data-aos="fade-up" data-aos-delay="100">DOMESTIC AND INTERNATIONAL CARGO SERVICE</p>
 
                     <form action="<?= base_url('tracking-package'); ?>" method="post" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">

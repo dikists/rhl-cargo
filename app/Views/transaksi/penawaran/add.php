@@ -56,7 +56,7 @@
                                    </div>
                                    <div class="form-group col-md-6">
                                         <label for="offer_text_opening" class="form-label">Kata Pembuka</label>
-                                        <textarea class="form-control" id="offer_text_opening" name="offer_text_opening">Bersama ini kami dari  PT. Wahana Elangcargo Perkasa memberitahukan adanya penyesuaian jasa ekspedisi sbb :</textarea>
+                                        <textarea class="form-control" id="offer_text_opening" name="offer_text_opening">Bersama ini kami dari  <?= getenv('COMPANY_NAME'); ?> memberitahukan adanya penyesuaian jasa ekspedisi sbb :</textarea>
                                    </div>
                               </div>
                               <div class="form-row">

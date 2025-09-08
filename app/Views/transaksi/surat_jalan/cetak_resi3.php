@@ -225,7 +225,7 @@
                 <table class="header-table">
                     <tr>
                         <td class="logo-box" style="border: none;">
-                            <img src="data:image/png;base64,<?= base64_encode(file_get_contents(FCPATH . 'assets/img/logo_rhl.png')); ?>" style="width: 150px; height: auto;" />
+                            <img src="data:image/png;base64,<?= base64_encode(file_get_contents(FCPATH . getenv('COMPANY_LOGO'))); ?>" style="width: 150px; height: auto;" />
                         </td>
                         <td class="company">
                             <div class="title"><?= $company['nama']; ?></div>
@@ -283,7 +283,7 @@
             </table>
 
             <!-- BLOK SERVICE -->
-            <table class="border" style="margin-top: 6px;">
+            <table class="border" style="margin-top: 5px;">
                 <tr>
                     <th class="red-head" style="width: 20%;">Service</th>
                     <th class="red-head" style="width: 20%;">Weight (Kg)</th>
@@ -301,7 +301,7 @@
             </table>
 
             <!-- BLOK DESKRIPSI -->
-            <table class="border" style="margin-top: 6px;">
+            <table class="border" style="margin-top: 5px;">
                 <tr>
                     <th class="red-head">Description of Contents</th>
                     <th class="red-head" style="width: 25%;">Shipper's Reference</th>
